@@ -17,3 +17,7 @@ For more information on the Smarty User Content Policy introduced with the afore
 As a mid-term solution, you might consider another extension that provides a less insecure version of the `{crmAPI}`
 tag: [smarty_reduced_security](https://github.com/eileenmcnaughton/smarty_reduced_security) - however, this is also
 considered a transitional solution; also, it alters your templates in the database, so it is not easily reversable.
+
+This extension *might* transform into a configuration interface for the *Smarty* security policy, with options for
+(dis-)allowing certain *Smarty* tags and modifiers and PHP functions, but silently removes the `{crmAPI}` tag from the
+list of disallowed *Smarty* tags for now.
