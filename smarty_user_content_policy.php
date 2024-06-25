@@ -62,7 +62,7 @@ function smarty_user_content_policy_civicrm_check(array &$messages, ?array $stat
       <<<EOT
       The security update with CiviCRM versions %1 and %2 introduced a security policy for Smarty, explicitly
       disallowing certain Smarty features (most notably the %3 tag in user content, such as message templates, mailings,
-      etc.9. The extension "Smarty User Content Policy" made changes to the policy allowing Smarty features that are
+      etc.). The extension "Smarty User Content Policy" made changes to the policy allowing Smarty features that are
       considered insecure, which should be a temporary measure to give you time for revisiting your templates and other
       configuration that contain the now-forbidden features, and replace them with secure alternatives. Once done so,
       re-enable the default Smarty User Content Policy by uninstalling the "Smarty User Content Policy" extension.
