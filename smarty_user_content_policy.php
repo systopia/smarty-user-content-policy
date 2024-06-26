@@ -13,7 +13,7 @@ use CRM_SmartyUserContentPolicy_ExtensionUtil as E;
  *
  * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_config/
  */
-function smarty_user_content_policy_civicrm_config(\CRM_Core_Config &$config): void {
+function smarty_user_content_policy_civicrm_config(?\CRM_Core_Config &$config = NULL): void {
   _smarty_user_content_policy_civix_civicrm_config($config);
 }
 
