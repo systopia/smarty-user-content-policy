@@ -81,7 +81,7 @@ function smarty_user_content_policy_civicrm_check(array &$messages, ?array $stat
     E::ts('Disable the Smarty User Content Policy extension'),
     FALSE,
     'href',
-    ['url' => 'civicrm/admin/extensions?action=disable&id=smarty-user-content-policy&key=smarty-user-content-policy'],
+    ['url' => '/civicrm/admin/extensions?action=disable&id=smarty-user-content-policy&key=smarty-user-content-policy'],
     'fa-cogs'
   );
   $messages[] = $message;
